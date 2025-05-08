@@ -27,7 +27,7 @@ const initProgressCallback = (initProgress: any) => {
     console.log(initProgress)
 }
 
-async function loadModel(selectedModel = 'Hermes-3-Llama-3.2-3B-q4f16_1-MLC') {
+async function loadModel(selectedModel = 'Qwen2.5-7B-Instruct-q4f16_1-MLC') {
   loadingStatus.value = 'Initializing...'
   loadingProgress.value = 0
   isModelReady.value = false
